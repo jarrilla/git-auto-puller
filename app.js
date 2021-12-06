@@ -4,9 +4,8 @@
  * 
  * TODO:
  * - It might be possible to automatically start ngrok from here (https://github.com/bubenshchykov/ngrok)
- * - We should alert dev (send email) when an action fails.
- * - We should alert dev (send email) when app is re-started (at least for now, since this means we have to reset the webhook with new ngrok addr)
  * - We should add a secret to ensure payload is coming from a trusted source
+ * - Might be worth it to write this in koa or fastify to not have so much overhead
  */
 
 require('dotenv').config();
